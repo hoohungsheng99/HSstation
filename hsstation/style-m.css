@@ -1,0 +1,58 @@
+/* ### 版面設計 ###*/
+#container   {width: 100%;}
+
+.post   {width: 300px;
+         margin-right: 20px;}
+
+.post:nth-child(even)  {margin-right: 0;}
+
+/* ### HEADER NAV ###*/
+#nav    {padding-top: 0;}
+
+#nav li:nth-child(2)   {float: none;
+                        overflow: hidden;}
+
+/* ### HEADERPOST LEAD###*/
+#headerpost   {position: relative;
+               width: 620px;}
+
+#headerpost img {float: none;}
+
+#headerpost #lead  {float: left;
+                    width: 620px;
+                    margin-left: 0;}
+
+#headerpost div {float: none;
+                 position: absolute;
+                 left: 0;
+                 bottom: 0;
+                 background-color: rgba(0,0,0,0.7);
+                 width: auto;
+                 padding: 10px 20px;
+                 margin: 0;}
+
+#headerpost h2  {font-size: 20px;
+                  margin: 10px 0 10px 0;}
+
+#headerpost p   {font-size: 14px;
+                 margin: 0 0 20px 0;}
+
+#headerpost .data {float: left;
+                   margin: 0;}
+
+#headerpost .more {float: right;
+                   margin: -12px 30px 0px 0px;}
+
+
+/* ### POST 圖文 ###*/
+
+.post img  {width: 300px;}
+
+.post h2  {font-size: 22px;}
+
+.post p   {font-size: 16px;}
+
+.post .more_s  {font-size: 18px;}
+
+
+
